@@ -1,0 +1,16 @@
+<div class="jumbotron">
+    <div class="container">
+        <h1>추첨 결과 페이지.</h1>
+        <hr>
+        <ul class="list-group">
+          <li class="list-group-item ">이번주 로또 번호는 <%= @lotto_num %>.</li>
+          <li class="list-group-item">보너스 번호는 <%= @bonus_num %></li>
+          <li class="list-group-item">추첨 번호는 <%= @my_num %></li>
+          <li class="list-group-item">겹치는 번호는 <%= @match_num %></li>
+          <li class="list-group-item">결과는 <%= @result %></li>
+        </ul>
+        <hr>
+        <input type="button" class="btn btn-primary" value="Refresh Page" onClick="window.location.reload()">
+        <a class="btn btn-primary" href="/" role="button">First page</a>
+    </div>
+</div>
