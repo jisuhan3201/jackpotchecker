@@ -1,6 +1,6 @@
 require ('open-uri')
 require ('json')
-require ('awesome_print')
+
 
 class JackpotController < ApplicationController
   def index
